@@ -1,0 +1,17 @@
+[project]
+name = "hand-pose-estimation"
+version = "0.1.0"
+description = "YOLOv26 Hand Keypoint Detection and Tracking Lab"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "ultralytics>=8.0.0",
+    "wandb>=0.16.0",
+    "python-dotenv>=1.0.0",
+    "opencv-python>=4.8.0",
+]
+
+[tool.uv]
+package = false
